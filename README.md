@@ -18,13 +18,16 @@ In this poc we demonstrate deployment of managed AWS Config Rule and its predefi
 
 ## To Apply this
 
-1. Ensure AWS profile has necessary permissions
+1. Ensure AWS profile has necessary permissions on the target account
 
-from cli run
+from the cli run:
 
 `export AWS_PROFILE=profilename` 
+
+`export AWS_REGION=eu-central-1` 
 
 2. Run Terraform
 
 `terraform init`
+
 `terraform apply`
